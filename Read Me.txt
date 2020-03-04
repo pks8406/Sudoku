@@ -1,0 +1,33 @@
+
+This solution is developed in VS2017, Angular 7, .Net core, TypeScript.
+
+1) You can find sudoku solution at Source\Sudoku
+2) You can find sudoku tests at Source\SudokuTests
+3) You can find the publised files at Source\PublishedSudoku
+
+----------------------------------------------
+Prerequisite - to run solution in VS2017
+----------------------------------------------
+
+[Visual Studio 2017]
+
+[Node] - https://nodejs.org/en/download/ 
+Verify that you are running at least Node.js version 8.x or greater and npm version 5.x or greater by running node -v and npm -v in a terminal/console window. Older versions produce errors, but newer versions are fine.
+
+[Angular Cli 7] - To install run the following in command line. 
+npm install -g @angular/cli
+verify version running: ng --version
+
+[Typescript] - https://www.typescriptlang.org/
+Verify that you have version 3.1 or above for npm global and SDK for visual studio. 
+To check Global: You can check by running tsc -v in any terminal window.
+To check Visual Studio 2017: Right click on project -> properties -> Typescript Build -> Typescript Version 3.1 (should be there)
+
+----------------------------------------------
+Prerequisite For Hosting published files
+----------------------------------------------
+
+IIS latest version
+Extract folder Source\PublishedSudoku in C:\inetpub\wwwroot.
+Create new website. (Provide website name, provide path to C:\inetpub\wwwroot\PublishedSudoku), provide a port if its different than 80)
+Start the website. It will load the Index.html page.
