@@ -1,11 +1,11 @@
 
 This solution is developed in VS2017, Angular 7, .Net core, TypeScript.
 
-1) You can find sudoku solution under Sudoku folder
-2) You can find sudoku tests solution under SudokuTests folder
-3) You can find the publised files under PublishedSudoku folder
-4) Video - UI Demo.zip - You can find the quick video which gives the glimps of UI
-5) Quick Architecture Walk Through.zip - Quick video which gives the glimps of architecture.
+1) Sudoku solution can be found under Sudoku folder
+2) Sudoku tests solution can be found under SudokuTests folder
+3) Publised files can be found under PublishedSudoku folder
+4) Video - UI Demo.zip - The quick video which gives the glimpse of UI
+5) Quick Architecture Walk Through.zip - Quick video which gives the glimpse of architecture
 
 ----------------------------------------------
 Prerequisite - to run solution in VS2017
