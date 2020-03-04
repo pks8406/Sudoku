@@ -30,4 +30,4 @@ Prerequisite For Hosting published files
 IIS latest version
 Extract folder Source\PublishedSudoku in C:\inetpub\wwwroot.
 Create new website. (Provide website name, provide path to C:\inetpub\wwwroot\PublishedSudoku), provide a port if its different than 80)
-Start the website. It will load the Index.html page.
+Start the website. It will open browser and load the Index.html page.
