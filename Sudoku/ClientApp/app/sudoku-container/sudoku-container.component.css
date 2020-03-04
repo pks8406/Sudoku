@@ -1,0 +1,25 @@
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+	color: green;
+}
+
+#extra-controls {
+	margin-top: 100px;
+}
+
+#sudokuInput {
+	margin-top: 100px;
+}
+
+div .app-sudoku-container {
+	margin-top: 100px;
+}
+
+.margin-btn {
+	margin: 135px 20px 20px 20px !important
+}
+
+.defaultLength {
+	width: 70%
+}

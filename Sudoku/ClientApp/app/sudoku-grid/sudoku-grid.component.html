@@ -1,0 +1,5 @@
+<div class="app-sudoku-grid">
+	<div *ngFor="let row of board" id="rows">
+		<input *ngFor="let cell of row" class="cell" type="text" value={{cell}} maxlength=1 readonly />
+	</div>
+</div>

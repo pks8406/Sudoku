@@ -1,0 +1,36 @@
+
+<div align="center" class="app-sudoku-container">
+	<div class="d-flex justify-content-center">
+		<div class="d-flex">
+			<div class="d-block float-left">
+				<app-sudoku-grid [board]="unsolvedBoard"></app-sudoku-grid>
+			</div>
+			<div class="d-block float-left p-2 margin-btn">
+				<button type="button" class="btn btn-success mr-2" tooltip="Solve Sudoku" (click)=solveSudoku()>Solve</button>
+				<button type="button" class="btn btn-secondary" tooltip="Reset Sudoku" (click)=resetSudoku()>Reset</button>
+			</div>
+			<div class="d-block float-none">
+				<app-sudoku-grid [board]="resultBoard"></app-sudoku-grid>
+			</div>
+		</div>
+	</div>
+	<div class="d-flex justify-content-center">
+		<div class="d-flex">
+			<div class="row">
+				<div id="sudokuInput" class="col-md-12">
+					<input placeholder="eg: .....97..4..1..3.8.1...89....9..42...8.23.179..26.7.833..7.16.......2...97..5..12" #sudokuInput class="defaultLength mr-1" />
+					<button (click)=populateInputSudoku(sudokuInput.value) class="btn btn-info" tooltip="Populate Sudoku">Populate Sudoku</button>
+					<p>
+						You can input a new sudoku puzzle using a string of numbers. Provide . OR 0 for the unknown cell value
+						<br />
+						eg: .....97..4..1..3.8.1...89....9..42...8.23.179..26.7.833..7.16.......2...97..5..12 
+						<br />
+						OR
+						<br />
+						003020600900305001001806400008102900700000008006708200002609500800203009005010300
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

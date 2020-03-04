@@ -1,0 +1,27 @@
+.cell {
+	height: 35px;
+	width: 35px;
+	border: 1px solid;
+	border-color: lightgrey;
+	text-align:center
+}
+
+	.cell:first-child {
+		border-left: solid;
+		border-width: thin;
+	}
+
+	.cell:nth-child(3n) {
+		border-right: solid;
+		border-width: thin;
+	}
+
+#rows:first-child {
+	border-top: solid;
+	border-width: thin;
+}
+
+#rows:nth-child(3n) .cell {
+	border-bottom: solid;
+	border-width: thin;
+}
